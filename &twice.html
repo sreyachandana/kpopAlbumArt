@@ -1,0 +1,200 @@
+
+
+<html>
+<head>
+  <title>music player</title>
+    <meta name="viewport" content="width=device-width,  initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+       
+</head>
+<body >
+  <div id="container" class="row no-gutters" >
+
+     <div class="col-md-6 no-gutters">
+
+          <div class="leftside" id="albumcover" >
+             <p id="nameofsong"><i>&Twice</i></p>
+
+          </div>
+
+     </div>
+
+       <div class="col-md-6 no-gutters">
+
+          <div class="rightside">
+            <img id="fake" src="img/play.png" height="30px" width="30px" ><i>1.Fake & True</i></br>
+            <img id="strong" src="img/play.png" height="30px" width="30px" ><i>2.Stronger</i></br>
+            <img id="breakt" src="img/play.png" height="30px" width="30px" ><i>3.Breakthrough</i></br>
+            <img id="change" src="img/play.png" height="30px" width="30px" ><i>4.Changing</i></br>
+            <img id="happy" src="img/play.png" height="30px" width="30px" ><i>5.HAPPY HAPPY</i></br> 
+            <img id="what" src="img/play.png" height="30px" width="30px" ><i>6.What You Waiting For</i></br> 
+            <img id="beo" src="img/play.png" height="30px" width="30px" ><i>7.Be Ok</i></br> 
+            <img id="poli" src="img/play.png" height="30px" width="30px" ><i>8.Polish</i></br> 
+            <img id="how" src="img/play.png" height="30px" width="30px" ><i>9.How You Doin'</i></br> 
+            <img id="the" src="img/play.png" height="30px" width="30px" ><i>10.The Reason Why</i></br> 
+
+           </div>
+    
+        </div>
+
+  </div>
+
+  <audio id="fakeaud" src="music/01 Fake & True.m4a" / >
+  <audio id="strongaud" src="music/02 Stronger.m4a"/>
+  <audio id="breakaud" src="music/03 Breakthrough.m4a"/>
+  <audio id="changeaud" src="music/04 Changing!.m4a"/>
+  <audio id="happyaud" src="music/05 HAPPY HAPPY.m4a"/>
+  <audio id="whataud" src="music/06 What You Waiting For.m4a"/>
+  <audio id="beoaud" src="music/07 Be OK.m4a"/>
+  <audio id="poliaud" src="music/08 POLISH.m4a"/>
+  <audio id="howaud" src="music/09 How u doin'.m4a"/>
+  <audio id="theaud" src="music/10 The Reason Why.m4a"/>
+
+    <script>
+
+      var fakeaud=document.getElementById("fakeaud");
+      var fake=document.getElementById("fake");
+      fake.onclick=function(){
+        document.getElementById("albumcover").style.backgroundImage="url(img/1.jpg)";
+    if(fakeaud.paused){
+        fakeaud.play();
+        fake.src="img/pause.png";
+    }
+        else{
+       fakeaud.pause();
+        fake.src="img/play.png";
+        }  
+    }
+
+    var strongaud=document.getElementById("strongaud");
+      var strong=document.getElementById("strong");
+      strong.onclick=function(){
+        document.getElementById("albumcover").style.backgroundImage="url(img/2.jpg)";
+    if(strongaud.paused){
+        strongaud.play();
+        strong.src="img/pause.png";
+       
+    }
+        else{
+       strongaud.pause();
+        strong.src="img/play.png";
+        }  
+    }
+    var breakaud=document.getElementById("breakaud");
+      var breakt=document.getElementById("breakt");
+      breakt.onclick=function(){
+        document.getElementById("albumcover").style.backgroundImage="url(img/3.jpg)";
+    if(breakaud.paused){
+        breakaud.play();
+        breakt.src="img/pause.png";
+    }
+        else{
+       breakaud.pause();
+        breakt.src="img/play.png";
+        }  
+    }
+    var changeaud=document.getElementById("changeaud");
+      var change=document.getElementById("change");
+      change.onclick=function(){
+        document.getElementById("albumcover").style.backgroundImage="url(img/4.jpg)";
+    if(changeaud.paused){
+        changeaud.play();
+        change.src="img/pause.png";
+    }
+        else{
+       changeaud.pause();
+        change.src="img/play.png";
+        }  
+    }
+    var happyaud=document.getElementById("happyaud");
+      var happy=document.getElementById("happy");
+      happy.onclick=function(){
+        document.getElementById("albumcover").style.backgroundImage="url(img/5.jpg)";
+    if(happyaud.paused){
+        happyaud.play();
+        happy.src="img/pause.png";
+    }
+        else{
+       happyaud.pause();
+        happy.src="img/play.png";
+        }  
+    }
+    var whataud=document.getElementById("whataud");
+      var what=document.getElementById("what");
+      what.onclick=function(){
+        document.getElementById("albumcover").style.backgroundImage="url(img/6.jpg)";
+    if(whataud.paused){
+        whataud.play();
+        what.src="img/pause.png";
+    }
+        else{
+       whataud.pause();
+        what.src="img/play.png";
+        }  
+    }
+    var beoaud=document.getElementById("beoaud");
+      var beo=document.getElementById("beo");
+      beo.onclick=function(){
+        document.getElementById("albumcover").style.backgroundImage="url(img/7.jpg)";
+    if(beoaud.paused){
+        beoaud.play();
+        beo.src="img/pause.png";
+    }
+        else{
+       beoaud.pause();
+        beo.src="img/play.png";
+        }  
+    }
+    var poliaud=document.getElementById("poliaud");
+      var poli=document.getElementById("poli");
+      poli.onclick=function(){
+        document.getElementById("albumcover").style.backgroundImage="url(img/8.jpg)";
+    if(poliaud.paused){
+        poliaud.play();
+        poli.src="img/pause.png";
+    }
+        else{
+       poliaud.pause();
+        poli.src="img/play.png";
+        }  
+    }
+    var howaud=document.getElementById("howaud");
+      var how=document.getElementById("how");
+      how.onclick=function(){
+        document.getElementById("albumcover").style.backgroundImage="url(img/9.jpg)";
+    if(howaud.paused){
+        howaud.play();
+        how.src="img/pause.png";
+    }
+        else{
+       howaud.pause();
+        how.src="img/play.png";
+        }  
+    }
+    var theaud=document.getElementById("theaud");
+      var the=document.getElementById("the");
+
+      the.onclick=function(){
+        document.getElementById("albumcover").style.backgroundImage="url(img/10.jpg)";
+        
+    if(theaud.paused){
+        theaud.play();
+        the.src="img/pause.png";
+    }
+        else{
+       theaud.pause();
+        the.src="img/play.png";
+        }  
+    }
+    
+
+    </script>
+    
+
+</body>
+</html>
+
+
+
+

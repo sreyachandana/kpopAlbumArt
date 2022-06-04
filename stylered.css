@@ -1,0 +1,35 @@
+.leftsides{
+    background:url(img/summe.jpg);
+      background-repeat:no-repeat;
+      background-position: center ;
+      background-size:contain;
+      background-attachment: scroll;
+}
+.rightsides{
+    
+        color:rgb(12, 238, 250);
+        text-align: center ;
+        justify-content: center;       
+}
+
+#nameofs {
+    text-size-adjust: 20px;
+    color:rgb(12, 238, 250);
+
+}
+html, body{
+    height: 100%;
+    background-color: black;
+}
+.leftsides, .rightsides {
+    height: 50vh;
+    width: 100%;
+
+}
+@media screen and (min-width:500px ) {
+    
+        .leftsides, .rightsides{
+            height: 100vh;    
+    }
+    
+}

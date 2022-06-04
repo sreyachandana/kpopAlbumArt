@@ -1,0 +1,159 @@
+
+
+<html>
+    <head>
+      <title>music player</title>
+        <meta name="viewport" content="width=device-width,  initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+           
+    </head>
+    <body >
+      <div id="container" class="row no-gutters" >
+    
+         <div class="col-md-6 no-gutters">
+    
+              <div class="leftside2" id="albumcover" >
+                 <p id="nameofso"><i>Feel Special </i></p>
+    
+              </div>
+    
+         </div>
+    
+           <div class="col-md-6 no-gutters">
+    
+              <div class="rightside2" style="margin-top:10%">
+                <img id="feel" src="img/play.png" height="30px" width="30px" ><i>1.Feel Special</i></br>
+                <img id="rai" src="img/play.png" height="30px" width="30px" ><i>2.Rainbow</i></br>
+                <img id="getl" src="img/play.png" height="30px" width="30px" ><i>3.Get Loud</i></br>
+                <img id="trick" src="img/play.png" height="30px" width="30px" ><i>4.Trick It</i></br>
+                <img id="love" src="img/play.png" height="30px" width="30px" ><i>5.Love Foolish</i></br> 
+                <img id="twenty" src="img/play.png" height="30px" width="30px" ><i>6.21 29</i></br> 
+                <img id="breakkor" src="img/play.png" height="30px" width="30px" ><i>7.Breakthrough (Korean ver.)</i></br> 
+               
+    
+               </div>
+        
+            </div>
+    
+      </div>
+    
+      <audio id="feelaud" src="spe/01 Feel Special.m4a" / >
+        <audio id="raiaud" src="spe/02 Rainbow.m4a"/>
+        <audio id="getlaud" src="spe/03 Get Loud.m4a"/>
+        <audio id="trickaud" src="spe/04 Trick It.m4a"/>
+        <audio id="loveaud" src="spe/05 Love Foolish.m4a"/>
+        <audio id="twentyaud" src="spe/06 21_29.m4a"/>
+        <audio id="breakkoraud" src="spe/07 BREAKTHROUGH (Korean Ver.).m4a"/>
+       
+      
+          <script>
+      
+            var feelaud=document.getElementById("feelaud");
+            var feel=document.getElementById("feel");
+            feel.onclick=function(){
+              document.getElementById("albumcover").style.backgroundImage="url(img/2_1.jpg)";
+          if(feelaud.paused){
+              feelaud.play();
+              feel.src="img/pause.png";
+          }
+              else{
+             feelaud.pause();
+              feel.src="img/play.png";
+              }  
+          }
+      
+          var raiaud=document.getElementById("raiaud");
+            var rai=document.getElementById("rai");
+            rai.onclick=function(){
+              document.getElementById("albumcover").style.backgroundImage="url(img/2_2.jpg)";
+          if(raiaud.paused){
+              raiaud.play();
+              rai.src="img/pause.png";
+             
+          }
+              else{
+             raiaud.pause();
+              rai.src="img/play.png";
+              }  
+          }
+          var getlaud=document.getElementById("getlaud");
+            var getl=document.getElementById("getl");
+            getl.onclick=function(){
+              document.getElementById("albumcover").style.backgroundImage="url(img/2_3.jpg)";
+          if(getlaud.paused){
+              getlaud.play();
+              getl.src="img/pause.png";
+          }
+              else{
+             getlaud.pause();
+              getl.src="img/play.png";
+              }  
+          }
+          var trickaud=document.getElementById("trickaud");
+            var trick=document.getElementById("trick");
+            trick.onclick=function(){
+              document.getElementById("albumcover").style.backgroundImage="url(img/2_4.jpg)";
+          if(trickaud.paused){
+              trickaud.play();
+              trick.src="img/pause.png";
+          }
+              else{
+             trickaud.pause();
+              trick.src="img/play.png";
+              }  
+          }
+          var loveaud=document.getElementById("loveaud");
+            var love=document.getElementById("love");
+            love.onclick=function(){
+              document.getElementById("albumcover").style.backgroundImage="url(img/2_5.jpg)";
+          if(loveaud.paused){
+              loveaud.play();
+              love.src="img/pause.png";
+          }
+              else{
+             loveaud.pause();
+              love.src="img/play.png";
+              }  
+          }
+          var twentyaud=document.getElementById("twentyaud");
+            var twenty=document.getElementById("twenty");
+            twenty.onclick=function(){
+              document.getElementById("albumcover").style.backgroundImage="url(img/2_6.jpg)";
+          if(twentyaud.paused){
+              twentyaud.play();
+              twenty.src="img/pause.png";
+          }
+              else{
+             twentyaud.pause();
+              twenty.src="img/play.png";
+              }  
+          }
+          var breakkoraud=document.getElementById("breakkoraud");
+            var breakkor=document.getElementById("breakkor");
+            breakkor.onclick=function(){
+              document.getElementById("albumcover").style.backgroundImage="url(img/2_7.jpg)";
+          if(breakkoraud.paused){
+              breakkoraud.play();
+              breakkor.src="img/pause.png";
+          }
+              else{
+             breakkoraud.pause();
+              breakkor.src="img/play.png";
+              }  
+          }
+         
+          
+      
+  
+  
+        </script>
+        
+    
+    </body>
+    </html>
+    
+    
+    
+    
+    
