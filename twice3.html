@@ -1,0 +1,141 @@
+
+
+<html>
+    <head>
+      <title>music player</title>
+        <meta name="viewport" content="width=device-width,  initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+           
+    </head>
+    <body >
+      <div id="container" class="row no-gutters" >
+    
+         <div class="col-md-6 no-gutters">
+    
+              <div class="leftside3" id="albumcover" >
+                 <p id="nameof"><i>#Twice3 </i></p>
+    
+              </div>
+    
+         </div>
+    
+           <div class="col-md-6 no-gutters">
+    
+              <div class="rightside3" style="margin-top:10%">
+                <img id="besti" src="img/play.png" height="30px" width="30px" ><i>1.The Best Thing I Ever Did</i></br>
+                <img id="fncy" src="img/play.png" height="30px" width="30px" ><i>2.Fancy (Japanese Ver.)</i></br>
+                <img id="fspe" src="img/play.png" height="30px" width="30px" ><i>3.Feel Special (Japanese Ver.)</i></br>
+                <img id="morere" src="img/play.png" height="30px" width="30px" ><i>4.More & More (Japanese Ver.)</i></br>
+                <img id="stuckin" src="img/play.png" height="30px" width="30px" ><i>5.Stuck In My Head (Japanese Ver.)</i></br> 
+                <img id="twnine" src="img/play.png" height="30px" width="30px" ><i>6.21:29 (Japanese Ver.)</i></br> 
+               </div>
+        
+            </div>
+    
+      </div>
+    
+      <audio id="bestiaud" src="music/01 - The Best Thing I Ever Did (Japanese Version) - OMGKPOP.m4a" / >
+        <audio id="fncyaud" src="music/02 - FANCY (Japanese Version) - OMGKPOP.m4a"/>
+        <audio id="fspeaud" src="music/03 - Feel Special (Japanese Version) - OMGKPOP.m4a"/>
+        <audio id="morereaud" src="music/04 - MORE & MORE (Japanese Version) - OMGKPOP.m4a"/>
+        <audio id="stuckinaud" src="music/05 - STUCK IN MY HEAD (Japanese Version) - OMGKPOP.m4a"/>
+        <audio id="twnineaud" src="music/06 - 2129 (Japanese Version) - OMGKPOP.m4a"/>
+      
+       
+      
+          <script>
+      
+            var bestiaud=document.getElementById("bestiaud");
+            var besti=document.getElementById("besti");
+            besti.onclick=function(){
+              document.getElementById("albumcover").style.backgroundImage="url(img/2_1.jpg)";
+          if(bestiaud.paused){
+              bestiaud.play();
+              besti.src="img/pause.png";
+          }
+              else{
+             bestiaud.pause();
+              besti.src="img/play.png";
+              }  
+          }
+      
+          var fncyaud=document.getElementById("fncyaud");
+            var fncy=document.getElementById("fncy");
+            fncy.onclick=function(){
+              document.getElementById("albumcover").style.backgroundImage="url(img/2_2.jpg)";
+          if(fncyaud.paused){
+              fncyaud.play();
+              fncy.src="img/pause.png";
+             
+          }
+              else{
+             fncyaud.pause();
+              fncy.src="img/play.png";
+              }  
+          }
+          var fspeaud=document.getElementById("fspeaud");
+            var fspe=document.getElementById("fspe");
+            fspe.onclick=function(){
+              document.getElementById("albumcover").style.backgroundImage="url(img/2_3.jpg)";
+          if(fspeaud.paused){
+              fspeaud.play();
+              fspe.src="img/pause.png";
+          }
+              else{
+             fspeaud.pause();
+              fspe.src="img/play.png";
+              }  
+          }
+          var morereaud=document.getElementById("morereaud");
+            var morere=document.getElementById("morere");
+            morere.onclick=function(){
+              document.getElementById("albumcover").style.backgroundImage="url(img/2_4.jpg)";
+          if(morereaud.paused){
+              morereaud.play();
+              morere.src="img/pause.png";
+          }
+              else{
+             morereaud.pause();
+              morere.src="img/play.png";
+              }  
+          }
+          var stuckinaud=document.getElementById("stuckinaud");
+            var stuckin=document.getElementById("stuckin");
+            stuckin.onclick=function(){
+              document.getElementById("albumcover").style.backgroundImage="url(img/2_5.jpg)";
+          if(stuckinaud.paused){
+              stuckinaud.play();
+              stuckin.src="img/pause.png";
+          }
+              else{
+             stuckinaud.pause();
+              stuckin.src="img/play.png";
+              }  
+          }
+          var twnineaud=document.getElementById("twnineaud");
+            var twnine=document.getElementById("twnine");
+            twnine.onclick=function(){
+              document.getElementById("albumcover").style.backgroundImage="url(img/2_6.jpg)";
+          if(twnineaud.paused){
+              twnineaud.play();
+              twnine.src="img/pause.png";
+          }
+              else{
+             twnineaud.pause();
+              twnine.src="img/play.png";
+              }  
+          }
+         
+
+
+        </script>
+        
+    
+    </body>
+    </html>
+    
+    
+    
+    
+    
