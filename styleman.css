@@ -42,15 +42,15 @@ header{
 .navlist li a:hover{
     color: cyan;
 }
-#twi, #fel, #kur, #summr #twi3 {
+#twi, #fel, #kur, #summr, #twic3 {
     width:16vh;
     height:16vh;
     box-sizing: border-box;
-    border-radius: 100px;
+    border-radius: 40px;
 }
 
 @media screen and (min-width:500px){
-    #twi, #fel, #kur, #summr, #twi3 {
+    #twi, #fel, #kur, #summr, #twic3 {
         width:22vw;
         height:22vw;
         box-sizing: border-box;
