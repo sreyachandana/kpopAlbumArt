@@ -1,0 +1,199 @@
+
+
+<html>
+<head>
+  <title>music player</title>
+    <meta name="viewport" content="width=device-width,  initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styleiu.css">
+       
+</head>
+<body >
+  <div id="container" class="row no-gutters" >
+
+     <div class="col-md-6 no-gutters">
+
+          <div class="leftsidelc" id="albumcover" >
+             <p id="nameofson"><i>Lilac</i></p>
+
+          </div>
+
+     </div>
+
+       <div class="col-md-6 no-gutters">
+
+          <div class="rightsidelc">
+            <img id="lila" src="img/play.png" height="30px" width="30px" ><i>1.Lilac</i></br>
+            <img id="flu" src="img/play.png" height="30px" width="30px" ><i>2.Flu</i></br>
+            <img id="coin" src="img/play.png" height="30px" width="30px" ><i>3.Coin</i></br>
+            <img id="spring" src="img/play.png" height="30px" width="30px" ><i>4.Hi Spring Bye</i></br>
+            <img id="celeb" src="img/play.png" height="30px" width="30px" ><i>5.Celebrity</i></br> 
+            <img id="troll" src="img/play.png" height="30px" width="30px" ><i>6.Troll (Feat Dean)</i></br> 
+            <img id="empty" src="img/play.png" height="30px" width="30px" ><i>7.Empty Cup</i></br> 
+            <img id="mysea" src="img/play.png" height="30px" width="30px" ><i>8.My Sea</i></br> 
+            <img id="ahpuh" src="img/play.png" height="30px" width="30px" ><i>9.Ah Puh</i></br> 
+            <img id="epilog" src="img/play.png" height="30px" width="30px" ><i>10.Epilogue</i></br> 
+
+           </div>
+    
+        </div>
+
+  </div>
+
+  <audio id="lilaaud" src="iu/lilac.mp3"/>
+  <audio id="fluaud" src="iu/02 - Flu - HULKPOP.COM.mp3"/>
+  <audio id="coinaud" src="iu/03 - Coin - HULKPOP.COM.mp3"/>
+  <audio id="springaud" src="iu/hi spring.mp3"/>
+  <audio id="celebaud" src="iu/05 - Celebrity - HULKPOP.COM.mp3"/>
+  <audio id="trollaud" src="iu/troll.mp3"/>
+  <audio id="emptyaud" src="iu/empty cup.mp3"/>
+  <audio id="myseaaud" src="iu/my sea.mp3"/>
+  <audio id="ahpuhaud" src="iu/ah puh.mp3"/>
+  <audio id="epilogaud" src="iu/epilogue.mp3"/>
+
+    <script>
+
+var lilaaud=document.getElementById("lilaaud");
+      var lila=document.getElementById("lila");
+      lila.onclick=function(){
+        document.getElementById("albumcover").style.backgroundImage="url(img/lc1.jpg)";
+    if(lilaaud.paused){
+        lilaaud.play();
+        lila.src="img/pause.png";
+    }
+        else{
+       lilaaud.pause();
+        lila.src="img/play.png";
+        }  
+    }
+
+    var fluaud=document.getElementById("fluaud");
+      var flu=document.getElementById("flu");
+      flu.onclick=function(){
+        document.getElementById("albumcover").style.backgroundImage="url(img/lc2.jpg)";
+    if(fluaud.paused){
+        fluaud.play();
+        flu.src="img/pause.png";
+       
+    }
+        else{
+       fluaud.pause();
+        flu.src="img/play.png";
+        }  
+    }
+    var coinaud=document.getElementById("coinaud");
+      var coin=document.getElementById("coin");
+      coin.onclick=function(){
+        document.getElementById("albumcover").style.backgroundImage="url(img/lc3.jpg)";
+    if(coinaud.paused){
+        coinaud.play();
+        coin.src="img/pause.png";
+    }
+        else{
+       coinaud.pause();
+        coin.src="img/play.png";
+        }  
+    }
+    var springaud=document.getElementById("springaud");
+      var spring=document.getElementById("spring");
+      spring.onclick=function(){
+        document.getElementById("albumcover").style.backgroundImage="url(img/lc4.jpg)";
+    if(springaud.paused){
+        springaud.play();
+        spring.src="img/pause.png";
+    }
+        else{
+       springaud.pause();
+        spring.src="img/play.png";
+        }  
+    }
+    var celebaud=document.getElementById("celebaud");
+      var celeb=document.getElementById("celeb");
+      celeb.onclick=function(){
+        document.getElementById("albumcover").style.backgroundImage="url(img/lc5.jpg)";
+    if(celebaud.paused){
+        celebaud.play();
+        celeb.src="img/pause.png";
+    }
+        else{
+       celebaud.pause();
+        celeb.src="img/play.png";
+        }  
+    }
+    var trollaud=document.getElementById("trollaud");
+      var troll=document.getElementById("troll");
+      troll.onclick=function(){
+        document.getElementById("albumcover").style.backgroundImage="url(img/lc6.jpg)";
+    if(trollaud.paused){
+        trollaud.play();
+        troll.src="img/pause.png";
+    }
+        else{
+       trollaud.pause();
+        troll.src="img/play.png";
+        }  
+    }
+    var emptyaud=document.getElementById("emptyaud");
+      var empty=document.getElementById("empty");
+      empty.onclick=function(){
+        document.getElementById("albumcover").style.backgroundImage="url(img/lc7.jpg)";
+    if(emptyaud.paused){
+        emptyaud.play();
+        empty.src="img/pause.png";
+    }
+        else{
+       emptyaud.pause();
+        empty.src="img/play.png";
+        }  
+    }
+    var myseaaud=document.getElementById("myseaaud");
+      var mysea=document.getElementById("mysea");
+      mysea.onclick=function(){
+        document.getElementById("albumcover").style.backgroundImage="url(img/lc8.jpg)";
+    if(myseaaud.paused){
+        myseaaud.play();
+        mysea.src="img/pause.png";
+    }
+        else{
+       myseaaud.pause();
+        mysea.src="img/play.png";
+        }  
+    }
+    var ahpuhaud=document.getElementById("ahpuhaud");
+      var ahpuh=document.getElementById("ahpuh");
+      ahpuh.onclick=function(){
+        document.getElementById("albumcover").style.backgroundImage="url(img/lc9.jpg)";
+    if(ahpuhaud.paused){
+        ahpuhaud.play();
+        ahpuh.src="img/pause.png";
+    }
+        else{
+       ahpuhaud.pause();
+        ahpuh.src="img/play.png";
+        }  
+    }
+    var epilogaud=document.getElementById("epilogaud");
+      var epilog=document.getElementById("epilog");
+
+      epilog.onclick=function(){
+        document.getElementById("albumcover").style.backgroundImage="url(img/lc10.jpg)";
+        
+    if(epilogaud.paused){
+        epilogaud.play();
+        epilog.src="img/pause.png";
+    }
+        else{
+       epilogaud.pause();
+        epilog.src="img/play.png";
+        }  
+    }
+    
+
+
+
+    </script>
+    
+
+</body>
+</html>
+

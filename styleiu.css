@@ -21,6 +21,24 @@ html, body{
     height: 100%;
     background-color: black;
 }
+.leftsidelc {
+    background:url(img/lc1.jpg);
+      background-repeat:no-repeat;
+      background-position: center ;
+      background-size:contain;
+      background-attachment: scroll;
+}
+.rightsidelc {
+    
+        color:rgb(197, 70, 199);
+        text-align: center ;
+        justify-content: center;       
+}
+#nameofson {
+    text-size-adjust: 20px;
+    color:rgb(197, 70, 199);
+
+}
 #albumcover {
     box-sizing: border-box;
     border-radius: 50px;
@@ -31,14 +49,14 @@ html, body{
     border-radius: 20vh;
      }
  }
- .leftsideiu, .rightsideiu {
+ .leftsideiu, .rightsideiu, .leftsidelc, .rightsidelc {
     height: 50vh;
     width: 100%;
 
 }
 @media screen and (min-width:500px ) {
     
-        .leftsideiu, .rightsideiu {
+        .leftsideiu, .rightsideiu, .leftsidelc, .rightsidelc {
             height: 100vh;    
             
     }
