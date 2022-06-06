@@ -1,0 +1,46 @@
+.leftsideiu {
+    background:url(img/fb_6.jpg);
+      background-repeat:no-repeat;
+      background-position: center ;
+      background-size:contain;
+      background-attachment: scroll;
+}
+.rightsideiu {
+    
+        color:rgb(232, 205, 136);
+        text-align: center ;
+        justify-content: center;       
+}
+
+#nameofsong {
+    text-size-adjust: 20px;
+    color:rgb(232, 205, 136);
+
+}
+html, body{
+    height: 100%;
+    background-color: black;
+}
+#albumcover {
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+@media screen and (min-width:500px ) {
+   #albumcover {
+        box-sizing: border-box;
+    border-radius: 20vh;
+     }
+ }
+ .leftsideiu, .rightsideiu {
+    height: 50vh;
+    width: 100%;
+
+}
+@media screen and (min-width:500px ) {
+    
+        .leftsideiu, .rightsideiu {
+            height: 100vh;    
+            
+    }
+    
+}

@@ -5,9 +5,7 @@
     
 }
 
-.swiper-wrapper{
-    margin-top: 20px;
-}
+
 li, a, button{
     font-weight: 530;
     font-size: 20px;
@@ -18,6 +16,20 @@ header{
     display:flex;
     justify-content: space-between;
     align-items: center;
+      margin-top: 0px;
+       background-color: rgb(73, 8, 82);
+}
+#namee{
+    font-weight: 530;
+    font-size: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: rgb(73, 8, 82);
+    color: rgb(66, 236, 245);
+    padding: 0px 10px;
+    margin-bottom: 0px;
+    
+    
 }
 .logo{
     cursor: pointer;
@@ -35,12 +47,16 @@ header{
 .navlist li a{
     transition: all 0.3s ease 0s;
     box-sizing: border-box;
-    background-color:rgb(94, 12, 104) ;
+    background-color:rgb(73, 8, 82) ;
     border-radius: 30px;
-    padding: 1px 5px;
+    padding: 0px 5px;
 }
 .navlist li a:hover{
     color: cyan;
+}
+hr {
+    margin-top: 0px;
+    color: rgb(66, 236, 245);
 }
 #twi, #fel, #kur, #summr, #twic3 {
     width:16vh;

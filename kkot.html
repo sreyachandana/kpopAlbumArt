@@ -1,0 +1,140 @@
+
+
+<html>
+    <head>
+      <title>music player</title>
+        <meta name="viewport" content="width=device-width,  initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="styleiu.css">
+           
+    </head>
+    <body >
+      <div id="container" class="row no-gutters" >
+    
+         <div class="col-md-6 no-gutters">
+    
+              <div class="leftsideiu" id="albumcover" >
+                 <p id="nameof"><i>A Flower Bookmark 2 </i></p>
+              </div>
+    
+         </div>
+    
+           <div class="col-md-6 no-gutters">
+    
+              <div class="rightsideiu" style="margin-top:10%">
+                <img id="autm" src="img/play.png" height="30px" width="30px" ><i>1.Autumn Morning</i></br>
+                <img id="secgar" src="img/play.png" height="30px" width="30px" ><i>2.Secret Garden</i></br>
+                <img id="sleeprain" src="img/play.png" height="30px" width="30px" ><i>3.Sleepless Rainy Night</i></br>
+                <img id="lastnight" src="img/play.png" height="30px" width="30px" ><i>4.Last Night Story</i></br>
+                <img id="bystream" src="img/play.png" height="30px" width="30px" ><i>5.By The Stream</i></br> 
+                <img id="everywith" src="img/play.png" height="30px" width="30px" ><i>6.Everyday With You</i></br> 
+               </div>
+        
+            </div>
+    
+      </div>
+      <audio id="autmaud" src="music/01 - The Best Thing I Ever Did (Japanese Version) - OMGKPOP.m4a" / >
+        <audio id="secgaraud" src="music/02 - FANCY (Japanese Version) - OMGKPOP.m4a"/>
+        <audio id="sleeprainaud" src="music/03 - Feel Special (Japanese Version) - OMGKPOP.m4a"/>
+        <audio id="lastnightaud" src="music/04 - MORE & MORE (Japanese Version) - OMGKPOP.m4a"/>
+        <audio id="bystreamaud" src="music/05 - STUCK IN MY HEAD (Japanese Version) - OMGKPOP.m4a"/>
+        <audio id="everywithaud" src="music/06 - 2129 (Japanese Version) - OMGKPOP.m4a"/>
+      
+       
+      
+          <script>
+      
+            var autmaud=document.getElementById("autmaud");
+            var autm=document.getElementById("autm");
+            autm.onclick=function(){
+              document.getElementById("albumcover").style.backgroundImage="url(img/fb_1.jpg)";
+          if(autmaud.paused){
+              autmaud.play();
+              autm.src="img/pause.png";
+          }
+              else{
+             autmaud.pause();
+              autm.src="img/play.png";
+              }  
+          }
+      
+          var secgaraud=document.getElementById("secgaraud");
+            var secgar=document.getElementById("secgar");
+            secgar.onclick=function(){
+              document.getElementById("albumcover").style.backgroundImage="url(img/fb_2.jpg)";
+          if(secgaraud.paused){
+              secgaraud.play();
+              secgar.src="img/pause.png";
+             
+          }
+              else{
+             secgaraud.pause();
+              secgar.src="img/play.png";
+              }  
+          }
+          var sleeprainaud=document.getElementById("sleeprainaud");
+            var sleeprain=document.getElementById("sleeprain");
+            sleeprain.onclick=function(){
+              document.getElementById("albumcover").style.backgroundImage="url(img/fb_3.jpg)";
+          if(sleeprainaud.paused){
+              sleeprainaud.play();
+              sleeprain.src="img/pause.png";
+          }
+              else{
+             sleeprainaud.pause();
+              sleeprain.src="img/play.png";
+              }  
+          }
+          var lastnightaud=document.getElementById("lastnightaud");
+            var lastnight=document.getElementById("lastnight");
+            lastnight.onclick=function(){
+              document.getElementById("albumcover").style.backgroundImage="url(img/fb_4.jpg)";
+          if(lastnightaud.paused){
+              lastnightaud.play();
+              lastnight.src="img/pause.png";
+          }
+              else{
+             lastnightaud.pause();
+              lastnight.src="img/play.png";
+              }  
+          }
+          var bystreamaud=document.getElementById("bystreamaud");
+            var bystream=document.getElementById("bystream");
+            bystream.onclick=function(){
+              document.getElementById("albumcover").style.backgroundImage="url(img/fb_5.jpg)";
+          if(bystreamaud.paused){
+              bystreamaud.play();
+              bystream.src="img/pause.png";
+          }
+              else{
+             bystreamaud.pause();
+              bystream.src="img/play.png";
+              }  
+          }
+          var everywithaud=document.getElementById("everywithaud");
+            var everywith=document.getElementById("everywith");
+            everywith.onclick=function(){
+              document.getElementById("albumcover").style.backgroundImage="url(img/fb_6.jpg)";
+          if(everywithaud.paused){
+              everywithaud.play();
+              everywith.src="img/pause.png";
+          }
+              else{
+             everywithaud.pause();
+              everywith.src="img/play.png";
+              }  
+          }
+         
+
+
+
+        </script>
+        
+    
+    </body>
+    </html>
+    
+    
+    
+    
+    
