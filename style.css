@@ -26,6 +26,7 @@ html, body{
     height: 100%;
     background-color: black;
 }
+
 #albumcover {
     box-sizing: border-box;
     border-radius: 50px;
@@ -36,14 +37,14 @@ html, body{
     border-radius: 20vh;
      }
  }
-.leftside, .rightside, .leftside2,.rightside2, .leftsidek, .rightsidek, .leftside3, .rightside3 {
+.leftside, .rightside, .leftside2,.rightside2, .leftsidek, .rightsidek, .leftside3, .rightside3, .leftsideper, .rightsideper {
     height: 50vh;
     width: 100%;
 
 }
 @media screen and (min-width:500px ) {
     
-        .leftside, .rightside, .leftside2, .rightside2, .leftsidek, .rightsidek, .leftside3, .rightside3 {
+        .leftside, .rightside, .leftside2, .rightside2, .leftsidek, .rightsidek, .leftside3, .rightside3, .leftsideper, .rightsideper {
             height: 100vh;    
             
     }
@@ -106,5 +107,24 @@ html, body{
 #nameof {
     text-size-adjust: 20px;
     color:rgb(12, 250, 194);
+
+}
+.leftsideper {
+    background:url(img/per4.jpg);
+      background-repeat:no-repeat;
+      background-position: center ;
+      background-size:contain;
+      background-attachment: scroll;
+}
+.rightsideper {
+    
+        color:rgb(250, 12, 12);
+        text-align: center ;
+        justify-content: center;       
+}
+
+#nameofsong {
+    text-size-adjust: 20px;
+    color:rgb(250, 12, 12);
 
 }

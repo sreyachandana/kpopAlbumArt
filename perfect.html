@@ -1,0 +1,152 @@
+
+
+<html>
+    <head>
+      <title>music player</title>
+        <meta name="viewport" content="width=device-width,  initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+           
+    </head>
+    <body >
+      <div id="container" class="row no-gutters" >
+    
+         <div class="col-md-6 no-gutters">
+    
+              <div class="leftsideper" id="albumcover" >
+                 <p id="nameper"><i>Perfect World</i></p>
+    
+              </div>
+    
+         </div>
+    
+           <div class="col-md-6 no-gutters">
+    
+              <div class="rightsideper">
+                <img id="perfe" src="img/play.png" height="30px" width="30px" ><i>1.Perfect World</i></br>
+                <img id="good" src="img/play.png" height="30px" width="30px" ><i>2.Good At Love </i></br>
+                <img id="fourleaf" src="img/play.png" height="30px" width="30px" ><i>3.Four Leaf Clover</i></br>
+                <img id="insummer" src="img/play.png" height="30px" width="30px" ><i>4.In The Summer</i></br>
+                <img id="pieces" src="img/play.png" height="30px" width="30px" ><i>5.Pieces Of Love </i></br> 
+                <img id="thank" src="img/play.png" height="30px" width="30px" ><i>6.Thank You, Family</i></br> 
+                <img id="promise" src="img/play.png" height="30px" width="30px" ><i>7.Promise</i></br> 
+    
+               </div>
+        
+            </div>
+    
+      </div>
+      <audio id="perfeaud" src="music/01 - Perfect World - HULKPOP.COM.mp3"/>
+      <audio id="goodaud" src="music/03 - Good at Love - HULKPOP.COM.mp3"/>
+      <audio id="fourleafaud" src="music/06 - Four-leaf Clover - HULKPOP.COM.mp3"/>
+      <audio id="insummeraud" src="music/07 - In the summer - HULKPOP.COM.mp3"/>
+      <audio id="piecesaud" src="music/08 - PIECES OF LOVE - HULKPOP.COM.mp3"/>
+      <audio id="thankaud" src="music/09 - Thank you, Family - HULKPOP.COM.mp3"/>
+      <audio id="promiseaud" src="music/10 - PROMISE - HULKPOP.COM.mp3"/>
+    
+    
+        <script>
+    
+    var perfeaud=document.getElementById("perfeaud");
+          var perfe=document.getElementById("perfe");
+          perfe.onclick=function(){
+            document.getElementById("albumcover").style.backgroundImage="url(img/per1.jpg)";
+        if(perfeaud.paused){
+            perfeaud.play();
+            perfe.src="img/pause.png";
+        }
+            else{
+           perfeaud.pause();
+            perfe.src="img/play.png";
+            }  
+        }
+    
+        var goodaud=document.getElementById("goodaud");
+          var good=document.getElementById("good");
+          good.onclick=function(){
+            document.getElementById("albumcover").style.backgroundImage="url(img/per2.jpg)";
+        if(goodaud.paused){
+            goodaud.play();
+            good.src="img/pause.png";
+           
+        }
+            else{
+           goodaud.pause();
+            good.src="img/play.png";
+            }  
+        }
+        var fourleafaud=document.getElementById("fourleafaud");
+          var fourleaf=document.getElementById("fourleaf");
+          fourleaf.onclick=function(){
+            document.getElementById("albumcover").style.backgroundImage="url(img/per3.jpg)";
+        if(fourleafaud.paused){
+            fourleafaud.play();
+            fourleaf.src="img/pause.png";
+        }
+            else{
+           fourleafaud.pause();
+            fourleaf.src="img/play.png";
+            }  
+        }
+        var insummeraud=document.getElementById("insummeraud");
+          var insummer=document.getElementById("insummer");
+          insummer.onclick=function(){
+            document.getElementById("albumcover").style.backgroundImage="url(img/per4.jpg)";
+        if(insummeraud.paused){
+            insummeraud.play();
+            insummer.src="img/pause.png";
+        }
+            else{
+           insummeraud.pause();
+            insummer.src="img/play.png";
+            }  
+        }
+        var piecesaud=document.getElementById("piecesaud");
+          var pieces=document.getElementById("pieces");
+          pieces.onclick=function(){
+            document.getElementById("albumcover").style.backgroundImage="url(img/per5.jpg)";
+        if(piecesaud.paused){
+            piecesaud.play();
+            pieces.src="img/pause.png";
+        }
+            else{
+           piecesaud.pause();
+            pieces.src="img/play.png";
+            }  
+        }
+        var thankaud=document.getElementById("thankaud");
+          var thank=document.getElementById("thank");
+          thank.onclick=function(){
+            document.getElementById("albumcover").style.backgroundImage="url(img/per6.jpg)";
+        if(thankaud.paused){
+            thankaud.play();
+            thank.src="img/pause.png";
+        }
+            else{
+           thankaud.pause();
+            thank.src="img/play.png";
+            }  
+        }
+        var promiseaud=document.getElementById("promiseaud");
+          var promise=document.getElementById("promise");
+          promise.onclick=function(){
+            document.getElementById("albumcover").style.backgroundImage="url(img/per7.jpg)";
+        if(promiseaud.paused){
+            promiseaud.play();
+            promise.src="img/pause.png";
+        }
+            else{
+           promiseaud.pause();
+            promise.src="img/play.png";
+            }  
+        }
+       
+
+ 
+        </script>
+        
+    
+    </body>
+    </html>
+    
+    
