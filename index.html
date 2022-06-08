@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html>
+<head> 
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <!-- Link Swiper's CSS -->
+ <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+ <link rel="stylesheet" href="styleman.css">
+
+ <title> album covers </title>
+</head>
+<body class="bod" >
+  <header>
+  <img class="logo" src="img/icon.png" height="40px"width="40px"/>
+  <nav>
+     <ul class="navlist">
+       <li>   <a> Artist </a></li>
+       <li> <a> About</a></li>
+      </ul>
+  </nav>
+  <a class="cont" href=""><button>Contact</button></a>
+  
+</header>
+<br/>
+<a name="twice" id="namee" ><i>Twice</i></a>
+
+  <div class="swiper cardsliderr container" >
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><a href="feelspecial.html"><img src="special.png" id="fel"/></a></div>
+        <div class="swiper-slide"><a href="&twice.html"><img src="twice.png" id="twi" /> </a></div>
+        
+        <div class="swiper-slide"><a href="twice3.html"><img id="twic3" src="img/twice3j.jpg"  /> </a></div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+  </div>
+  <br/>
+  <div class="swiper cardsliderr container" >
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"> <a href="perfect.html"><img src="img/per1.jpg" id="summr"/></a></div>
+      <div class="swiper-slide"><a href="kura.html"><img src="kurak.png" id="kur" /> </a></div>
+    </div>
+</div>
+  <a name="iu" id="namee" ><i>IU</i></a>
+  <div class="swiper cardsliderr container" >
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"> <a href="kkot.html"><img src="img/fb.jpg" id="summr"/></a></div>
+      <div class="swiper-slide"> <a href="lilac.html"><img src="img/lc1.jpg" id="summr"/></a></div>
+    </div>
+</div>
+<br/>
+<a name="redvelvet" id="namee" ><i>Red Velvet</i></a>
+  <div class="swiper cardsliderr container" >
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"> <a href="redsummer.html"><img src="rsummer.png" id="summr"/></a>  </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".cardsliderr", {
+       slidesPerView:3,
+        spaceBetween: 8,
+        slidesPerGroup:3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+  </script>
+
+
+</body>
+</html>

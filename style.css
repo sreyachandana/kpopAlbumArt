@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+   padding: 0;
+}
+  
+.leftside{
+    background:url(img/polishh.jpg);
+      background-repeat:no-repeat;
+      background-position: center ;
+      background-size:contain;
+      background-attachment: scroll;
+}
+.rightside{
+    
+        color:rgb(250, 12, 119);
+        text-align: center ;
+        justify-content: center;       
+}
+
+#nameofsong {
+    text-size-adjust: 20px;
+    color:rgb(250, 12, 119);
+
+}
+html, body{
+    height: 100%;
+    background-color: black;
+}
+
+#albumcover {
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+@media screen and (min-width:500px ) {
+   #albumcover {
+        box-sizing: border-box;
+    border-radius: 20vh;
+     }
+ }
+.leftside, .rightside, .leftside2,.rightside2, .leftsidek, .rightsidek, .leftside3, .rightside3, .leftsideper, .rightsideper {
+    height: 50vh;
+    width: 100%;
+
+}
+@media screen and (min-width:500px ) {
+    
+        .leftside, .rightside, .leftside2, .rightside2, .leftsidek, .rightsidek, .leftside3, .rightside3, .leftsideper, .rightsideper {
+            height: 100vh;    
+            
+    }
+    
+}
+.leftside2{
+    background:url(img/2_6.jpg);
+    background-repeat:no-repeat;
+    background-position: center ;
+    background-size:contain;
+    background-attachment:local;
+}
+.rightside2{
+  
+      color:rgb(250, 151, 12);
+      text-align: center ;
+      justify-content: center;
+  
+      
+     
+}
+#nameofso {
+    text-size-adjust: 20px;
+    color:rgb(250, 151, 12);
+
+}
+.leftsidek{
+    background:url(img/kuraa.jpg);
+    background-repeat:no-repeat;
+    background-position: center ;
+    background-size:contain;
+    background-attachment:local;
+}
+.rightsidek{
+  
+      color:rgb(206, 12, 250);
+      text-align: center ;
+      justify-content: space-around;   
+     
+}
+#nameofs {
+    text-size-adjust: 20px;
+    color:rgb(206, 12, 250);
+
+}
+.leftside3{
+    background:url(img/twice3j.jpg);
+    background-repeat:no-repeat;
+    background-position: center ;
+    background-size:contain;
+    background-attachment:local;
+}
+.rightside3{
+  
+      color:rgb(12, 250, 194);
+      text-align: center ;
+      justify-content: space-around;   
+     
+}
+#nameof {
+    text-size-adjust: 20px;
+    color:rgb(12, 250, 194);
+
+}
+.leftsideper {
+    background:url(img/per4.jpg);
+      background-repeat:no-repeat;
+      background-position: center ;
+      background-size:contain;
+      background-attachment: scroll;
+}
+.rightsideper {
+    
+        color:rgb(250, 12, 12);
+        text-align: center ;
+        justify-content: center;       
+}
+
+#nameofsong {
+    text-size-adjust: 20px;
+    color:rgb(250, 12, 12);
+
+}
